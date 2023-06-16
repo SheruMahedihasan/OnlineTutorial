@@ -1,0 +1,269 @@
+
+.col-offset-2 {
+    margin-left: 12%;
+}
+
+.col-8 {
+    flex-basis: 62.99019607843137%;
+    max-width: 67%;
+}
+
+.page-hero-title {
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.text-24,
+blockquote,
+.page-hero-text,
+.application-cta-get-started-text,
+.application-create-installation-caption,
+.application-overview-hero-caption,
+.platform-heading-caption {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.page-hero-text,
+.page-hero-text p {
+    color: rgba(255, 255, 255, 0.9);
+    margin-top: 12px;
+}
+
+.page-hero-title h1 {
+    margin-right: 20px;
+}
+
+.page-hero {
+    background-image: linear-gradient(225deg, rgb(7, 98, 91) 0%, rgb(8, 48, 61) 49%, rgb(8, 48, 61) 100%);
+    text-align: center;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    padding: 80px 0;
+    background-size: cover;
+    padding-bottom: 0px;
+}
+
+.inner .col-row .main-content .col-8 .display-2 {
+    font-size: 2.975rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.color-emphasized {
+    color: red;
+    font-size: 2.975rem;
+}
+
+.line-draw {
+    border-bottom: 7px solid red;
+    width: 25%;
+    transform: rotate(287deg);
+}
+.row.column-control--wide {
+    max-width: 1200px;
+}
+
+.row {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.image.section .image--center,
+.image.aem-GridColumn .image--center,
+.image-text__image .image--center {
+    margin: 0 auto;
+    display: block;
+}
+
+.flex-block-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (min-width: 64.0625em) {
+    .large-12 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 64.0625em) {
+
+    .column,
+    .columns {
+        position: relative;
+        padding-left: 15px;
+        padding-right: 15px;
+        float: left;
+    }
+}
+
+.flex-block-container.desktop-three>.section {
+    width: 32%;
+    margin-bottom: 50px;
+}
+
+.flex-open-block .flex-open-block-wrapper {
+    color: #ddd;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    height: 100%;
+}
+
+.title2 .title--center {
+    text-align: center;
+    font-weight: 700;
+    color: black;
+}
+
+.container,
+.container-fluid,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.permium {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.permium .slide-content .header-h1
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 110px;
+    padding-bottom: 20px;
+}
+.permium .slide-content h1
+{
+    border-bottom: 3px solid #000000;
+}
+.slide-contentr {
+    max-width: 1120px;
+    width: 100%;
+    background-color: gray;
+    padding: 4px;
+}
+
+.slide-content {
+    margin: 0 40px;
+}
+
+.card-image {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 3px;
+}
+
+.card {
+    width: 320px;
+    border-radius: 25px;
+    background-color: #fff;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-content,
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+.image-content {
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #4070f4;
+    border-radius: 25px 25px 0 25px;
+}
+
+.overlay::before,
+.overlay::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: #4070f4;
+}
+
+.overlay::after {
+    border-radius: 0 25px 0 0;
+    background-color: #fff;
+}
+
+.card-image .card-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #4070f4;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+
+.description {
+    font-size: 14px;
+    color: #707070;
+    text-align: center;
+}
+
+.a {
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 8px 16px;
+    background-color: #4070f4;
+    border-radius: 6px;
+    margin: 14px;
+}
+.a:hover {
+    background: #265df2;
+}
+@media  (min-width: 1200px) and (min-width: 1000px)
+{
+.fs-5
+{
+   font-size: 1.0rem;
+}
+}

@@ -1,0 +1,337 @@
+.siderbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 280px;
+  padding: 6px 14px;
+  background-color: rgb(8, 48, 61);
+  transition: all 0.5s ease;
+}
+@media(max-width:1200px)
+{
+  .siderbar
+  {
+    width: 78px;
+  }
+}
+@media(max-width:1200px)
+{
+  .siderbar.active
+{
+  width: 280px;
+}
+}
+
+.siderbar .Logo_content {
+  padding-top: 30px;
+  color: white;
+}
+
+.siderbar .Logo_content .logo {
+  color: #fff;
+  display: flex;
+  height: 50px;
+  width: 100%;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+@media(max-width:1200px)
+{
+  .siderbar .Logo_content .logo 
+  {
+    opacity: 0;
+  pointer-events: none;
+  }
+}
+.siderbar.active .Logo_content .logo
+{
+   opacity: 1;
+   pointer-events: none;
+
+} 
+
+@media(max-width:1200px)
+{
+  .siderbar .links_name
+  {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+ 
+.siderbar.active .links_name
+{
+  opacity: 1;
+  pointer-events: auto;
+}
+@media(max-width:1200px)
+{
+  .siderbar .links_name
+  {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+.siderbar .Logo_content i {
+  padding-top: 25px;
+  padding-left: 40px;
+  font-size: 20px;
+  color: white;
+}
+
+.siderbar ul {
+  margin-top: 20px;
+  padding-left: 0px;
+}
+
+.siderbar ul li {
+  position: relative;
+  height: 80px;
+  width: 100%;
+  margin: 0px 5px;
+  list-style: none;
+  line-height: 50px;
+  border-radius: 12px;
+}
+
+.siderbar ul li .tooltip {
+  position: absolute;
+  font-weight: 700;
+  left: 75px;
+  top: 0px;
+  height: 50px;
+  width: 150px;
+  background: #fff;
+  box-shadow: 0px 5px 15px 0 rgb(73 175 180);
+  transform: translateY(-50%, -50%);
+  transition: 0s;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 35px;
+  display: none;
+}
+
+@media(max-width:1200px) {
+  .siderbar ul li .tooltip {
+  display: block;
+  }
+}
+
+.siderbar.active ul li .tooltip {
+  display: none;
+}
+
+.siderbar ul li:hover .tooltip {
+  transition: all 0.5s ease;
+  opacity: 1;
+  top: 50%;
+}
+
+.siderbar ul li a {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transition: all 0.4s ease;
+  border-radius: 12px;
+  white-space: nowrap;
+}
+
+.siderbar ul li a:hover {
+  background: #fff;
+  color: black;
+}
+
+.siderbar ul li a i {
+  height: 50px;
+  min-width: 50px;
+  border-radius: 12px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.siderbar #btn {
+  position: absolute;
+  left: 90%;
+  top: 6px;
+  font-size: 20px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  transform: translateX(-50px);
+}
+@media(max-width:1200px)
+{
+  .siderbar #btn
+  {
+    left: 50%;
+  }
+}
+.siderbar.active #btn
+    {
+      left: 90%;
+    }
+/* ======================= ../course/ tables =========================================*/
+@media(max-width:1200px)
+{
+  .ft
+  {
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media(max-width:1000px)
+{
+  .ft
+  {
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media(max-width:800px)
+{
+  .ft
+  {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media(max-width:600px)
+{
+  .ft
+  {
+    width: 70%;
+  }
+}
+@media(max-width:400px)
+{
+  .ft
+  {
+    width: 65%;
+  }
+}
+@media(max-width:200px)
+{
+  .ft
+  {
+    width: 15%;
+
+  }
+}
+.dis {
+  max-width: 100%;
+}
+
+.dis .table1 {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: 50px;
+  width: 75%;
+}
+@media(max-width:1200px)
+{
+  .dis .table1
+  {
+    width: 85%;
+  }
+}
+@media(max-width:1000px)
+{
+  .dis .table1
+  {
+    width: 80%;
+  }
+}
+@media(max-width:800px)
+{
+  .dis .table1
+  {
+    width: 75%;
+  }
+}
+@media(max-width:600px)
+{
+  .dis .table1
+  {
+    width: 70%;
+  }
+}
+@media(max-width:400px)
+{
+  .dis .table1
+  {
+    width: 65%;
+  }
+}
+@media(max-width:200px)
+{
+  .dis .table1
+  {
+    width: 50%;
+  }
+}
+@media(max-width:200px)
+{
+  .dis
+  {
+    width: 50%;
+  }
+}
+
+/* ====================== add topic =======================================*/
+
+.ca 
+{ 
+    margin-left: auto;
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.ca .col .card-footer a
+{
+    margin: auto 20%;
+    border: none;
+    color: rgb(8, 42, 61);
+    font-weight: 600;
+    font-family: cursive;
+    font-size: 18px;
+}
+.ca .col .card-footer a:hover
+{
+    color: rgb(2, 142, 142);
+}
+.se .col-4{
+    margin-top: 100px;
+    margin-left: 350px;
+    margin-bottom: -30px; 
+ }
+ .se .col-6 .row.g-2 .col-md-8
+ {
+    text-align: center;
+ }
+ @media(max-width:1200px)
+ {
+    .ca{
+    width: 95%;
+    }
+ }
+ @media(max-width:1000px)
+ {
+    .ca{
+    width: 95%;
+    }
+ }
+ @media(max-width:800px)
+ {
+    .ca{
+    width: 9    5%;
+    }
+ }

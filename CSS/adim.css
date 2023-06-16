@@ -1,0 +1,100 @@
+.adim .row 
+{
+    max-width: 100%;
+
+}
+.adim .row .col-2
+{
+        position: fixed;
+        top: 0;
+        height: 100%;
+        background-color: rgb(8, 48, 61);
+        padding-top: 20px;
+}
+.adim .row .col-2 .images
+{
+       color: white;
+       display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.adim .row .col-2 .list-group h1
+{
+    margin-top: 35px;
+    color: white;
+    margin-bottom: 20px;
+    background-color: rgba(143, 145, 145, 0);
+    border: none;
+}
+.adim .row .col-2 .list-group ul
+{
+    padding-left: 0rem;
+    list-style: none;
+}
+.adim .row .col-2 .list-group li a
+{
+    display: flex;
+    margin-bottom: 20px;
+    color: white;
+    background-color: rgba(143, 145, 145, 0);
+    border: none;
+    align-items: center;
+}
+.adim .row .col-2 .list-group li  a:hover
+{
+    background-color: rgba(255, 255, 255, 0.978);
+    color: rgb(0, 0, 0);
+}.adim .row .col-2 .list-group li  a i:hover
+{
+    background-color: rgba(255, 255, 255, 0.978);
+    color: rgb(0, 0, 0);
+}
+.adim .col-6 h1
+{
+    margin: 40px 40px;
+}
+.adim .col-6 
+{
+    margin: 100px 600px;
+}
+/* ======================= ../course/ tables =========================================*/
+.dis
+{
+   max-width: 100%;
+}
+.dis .table1
+{
+   margin-top: 120px;
+   margin-left: 350px;
+   margin-right: 90px;
+}
+/* ====================== add topic =======================================*/
+.ca 
+{ 
+    margin-left: 250px;
+}
+
+.ca .col .card-footer form button
+{
+    margin: auto 20%;
+    border: none;
+    color: rgb(8, 42, 61);
+    font-weight: 600;
+    font-family: cursive;
+    font-size: 18px;
+}
+.ca .col .card-footer form button:hover
+{
+    color: rgb(2, 142, 142);
+}
+
+   
+.se .col-4{
+    margin-top: 100px;
+    margin-left: 350px;
+    margin-bottom: -30px; 
+ }
+ .se .col-6 .row.g-2 .col-md-8
+ {
+    text-align: center;
+ }

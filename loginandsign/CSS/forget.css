@@ -1,0 +1,83 @@
+.one
+{
+    max-width: 100%;
+}
+.one .col-4
+{
+    margin-left: 40%;
+}
+.one .col-4 h1
+{
+   margin-bottom: 30px;
+   margin-left: 20%;
+   color: rgb(8, 48, 61);
+}
+.one .col-md-8
+{
+   margin-bottom: 20px;
+   color: rgb(8, 48, 61);
+}
+.one .col-10
+{
+    margin-top: 30px;
+    margin-left: 0%;
+}
+.one .col-12 label 
+{
+    padding-left: 60px;
+    padding-right: 60px;
+    font-weight: 600;
+    font-family: cursive;
+    font-size: 20px;
+}
+.one .col-12 label a
+{
+    text-decoration: none;
+    color:rgb(8, 48, 61) ;
+   
+}
+.one .col-12 label a:hover
+{
+    color:rgb(2, 142, 142) ;
+}
+.one .col-10 button 
+{
+    background-color: rgb(8, 48, 61);
+    padding-left: 150px;
+    padding-right: 150px;
+    border-radius: 20px;
+    border: none;
+}
+.one .col-10 button:hover
+{
+    background-color: rgb(2, 142, 142);
+    color: rgb(255, 255, 255);
+}
+.one .col-10 .for label a
+{
+    text-decoration: none;
+    color: rgb(8, 48, 61);
+    font-weight: 600;
+}
+.one .col-10 .for label 
+{
+    margin-top: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-weight: 600;
+    font-family: cursive;
+    font-size: 20px;
+}
+.one .col-10 .for label a:hover
+{
+    color: rgb(2, 142, 142);
+}
+.one .col-4 h2
+{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.one .col-12 .for label
+{
+    margin-bottom: 30px;
+}

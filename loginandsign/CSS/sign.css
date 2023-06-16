@@ -1,0 +1,72 @@
+.one
+{
+    max-width: 100%;
+}
+.one .col-4
+{
+    margin-left: 40%;
+}
+.one .col-4 h1
+{
+   margin-bottom: 30px;
+   margin-left: 20%;
+   color: rgb(8, 48, 61);
+}
+.one .col-md-8
+{
+   margin-bottom: 20px;
+   color: rgb(8, 48, 61);
+}
+.one .col-10
+{
+    margin-top: 30px;
+    margin-left: 0%;
+}
+.one .col-6 label 
+{   
+    font-weight: 400;
+    font-family: cursive;
+}
+.one .col-6 label a
+{
+    text-decoration: none;
+    color:rgb(8, 48, 61) ;
+   
+}
+.one .col-12 label a:hover
+{
+    color:rgb(2, 142, 142) ;
+}
+.one .col-10 button 
+{
+    background-color: rgb(8, 48, 61);
+    padding-left: 150px;
+    padding-right: 150px;
+    border-radius: 20px;
+    border: none;
+}
+.one .col-10 button:hover
+{
+    background-color: rgb(2, 142, 142);
+    color: rgb(255, 255, 255);
+}
+.one .col-10 .lo label a
+{
+    text-decoration: none;
+    color: rgb(8, 48, 61);
+    font-weight: 600;
+}
+.one .col-10 .lo label 
+{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 600;
+    font-family: cursive;
+    font-size: 20px;
+}
+.one .col-10 .lo label a:hover
+{
+    color: rgb(2, 142, 142);
+}
