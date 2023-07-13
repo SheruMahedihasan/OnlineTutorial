@@ -19,7 +19,7 @@
       background: linear-gradient(rgb(8, 48, 61), rgb(8, 48, 61), rgba(8, 42, 65, 0.746)), url(images/about-image/header.jpg), no-repeat center center;
       background-size: cover;
     }
- 
+
     .top .pb-5,
     .py-5 {
       padding-bottom: 3rem !important;
@@ -148,7 +148,7 @@
     nav {
       background-color: rgb(8, 48, 61);
       color: white;
-    } 
+    }
 
 
     /*============================================================== premium packs =================================*/
@@ -206,7 +206,7 @@
 
               </li>
             </ul>
-
+                                                                                                      
           </li>
 
           <li class="nav-item dropdown">
@@ -232,7 +232,7 @@
               if (mysqli_num_rows($result) > 0) {
                 $fetch = mysqli_fetch_assoc($result);
               } ?>
-              <img style="border-radius: 50px;  border:3px solid white;  box-shadow: 2px 2px 10px 2px white;" width="40" height="40" src="<?php echo 'loginandsign/';?><?php echo $fetch['images'] ?>" onclick="toggleMenu()">
+              <img style="border-radius: 50px;  border:3px solid white;  box-shadow: 2px 2px 10px 2px white;" width="40" height="40" src="<?php echo 'loginandsign/'; ?><?php echo $fetch['images'] ?>" onclick="toggleMenu()">
             <?php } else { ?>
               <img style="border-radius: 50px;  border:3px solid white;  box-shadow: 2px 2px 10px 2px white;" width="40" height="40" src="images/top/profile-1.jpg" onclick="toggleMenu()">
 
@@ -252,7 +252,7 @@
                   }
                 ?>
                   <div class="user-info">
-                    <img src="<?php echo 'loginandsign/';?><?php echo $fetch['images'] ?>">
+                    <img src="<?php echo 'loginandsign/'; ?><?php echo $fetch['images'] ?>">
                     <h3 class="text-dark"><?php echo $fetch['First_Name'] ?> <?php echo $fetch['Last_Name'] ?></h3>
                   </div> <?php
                         } else {  ?>
@@ -490,7 +490,7 @@
     <div class="permium">
 
       <div class="slide-container swiper">
-      <h5><i class="bi bi-boxes fs-5"></i>&nbsp; Premium Packs</h5>
+        <h5><i class="bi bi-boxes fs-5"></i>&nbsp; Premium Packs</h5>
         <h1>Curated courses packed together from expert tutors</h1>
         <div class="slide-content">
           <?php
@@ -513,12 +513,12 @@
                   </div>
 
                   <div class="card-content">
-                    
+
 
                     <h2 class="name"><?php if (isset($row['Premium_Name'])) {
                                         echo $row['Premium_Name'];
                                       } ?></h2>
-                                      <div>
+                    <div>
                       <a href="#"><i class="bi bi-star-fill"></i></a>
                       <a href="#"><i class="bi bi-star-fill"></i></a>
                       <a href="#"><i class="bi bi-star-fill"></i></a>
@@ -528,8 +528,8 @@
                                               echo $row['Premium_Desprition'];
                                             } ?></p>
                     <h2 class="name"><i class="bi bi-currency-rupee"></i><?php if (isset($row['Premium_Selling'])) {
-                                        echo $row['Premium_Selling'];
-                                      } ?></h2>
+                                                                            echo $row['Premium_Selling'];
+                                                                          } ?></h2>
 
                     <form action="buy.php" method="POST">
                       <input type="hidden" name="Id" value='<?php echo $row["Id"] ?>'>
