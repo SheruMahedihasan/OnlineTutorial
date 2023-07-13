@@ -38,8 +38,8 @@
           <div class="row">
             <div class="col-xs-8 col-sm-8 col-md-8 ms-2">
               <h2 style="text-transform:uppercase;"><?php if (isset($res['Premium_Name'])) {
-                    echo $res['Premium_Name'];
-                  } ?> Prime Pack</h2>
+                                                      echo $res['Premium_Name'];
+                                                    } ?> Prime Pack</h2>
               <ul class="list-inline mt-2 mb-1 bundle-list-inline">
                 <li class="list-inline-item fw-light">
                   <i class="bi bi-person"></i> <a href="permiumpack.php">&nbsp;&nbsp;Tutorialspoint</a>
@@ -50,15 +50,15 @@
                                                                                                                                       echo $res['Premium_Name'];
                                                                                                                                     } ?></li><br>
 
-<div>
-  <label style="color:white;"> 4.5 </label>
-                      <a href="#"><i class="bi bi-star-fill"></i></a>
-                      <a href="#"><i class="bi bi-star-fill"></i></a>
-                      <a href="#"><i class="bi bi-star-fill"></i></a>
-                      <a href="#"><i class="bi bi-star-fill"></i></a>
-                      <a href="#"><i class="bi bi-star-half"></i></a>
-                      <label style="color:white;">Rating (39)</label>
-                    </div>
+                <div>
+                  <label style="color:white;"> 4.5 </label>
+                  <a href="#"><i class="bi bi-star-fill"></i></a>
+                  <a href="#"><i class="bi bi-star-fill"></i></a>
+                  <a href="#"><i class="bi bi-star-fill"></i></a>
+                  <a href="#"><i class="bi bi-star-fill"></i></a>
+                  <a href="#"><i class="bi bi-star-half"></i></a>
+                  <label style="color:white;">Rating (39)</label>
+                </div>
               </ul>
             </div>
           </div>
@@ -72,10 +72,10 @@
 
   <section class="buy1">
     <?php
-    $Premium_Name = $_GET['Id'];
-    $sql = "SELECT * from Topicsa WHERE Course_Id = '$Premium_Name' LIMIT 8";
+    // $Premium_Name = $_GET['Id'];
+    $sql = "SELECT * from Topicsa WHERE Course_Id = '$Id' LIMIT 8";
     $result = $conn->query($sql);
-  
+
 
     ?>
     <div class="courses-container">
@@ -99,7 +99,7 @@
     </div>
 
     <?php
-    $Id = $_GET['Id'];
+    // $Id = $_GET['Id'];
     $sql = "SELECT * FROM premiumpacks WHERE Course_Id = '$Id'";
     $result = $conn->query($sql);
     $row = $result->fetch_assoc();
@@ -121,8 +121,8 @@
               </div>
               <div class="card-content">
                 <h2 class="name" style="text-transform:uppercase;"><?php if (isset($row['Premium_Name'])) {
-                                    echo $row['Premium_Name'];
-                                  } ?></h2>
+                                                                      echo $row['Premium_Name'];
+                                                                    } ?></h2>
 
                 <div class="card-btn">
                   <li class="card-btn-allow">
@@ -167,8 +167,8 @@
                                   } ?></h2>
                 <div class="checkout-payment-btn">
 
-                  <form action="checkout.php?Course_Id=<?php echo $row['Course_Id'] ?>" method="POST">
-                    <input type="hidden" name="txt1" value='<?php echo $row["Id"] ?>'>
+                  <form action="checkout.php?Course_Id=<?php echo $row['Course_Id']; ?>" method="POST">
+                    <input type="hidden" name="txt1" value='<?php echo $row["Id"]; ?>'>
                     <button class="button" id="stulogEmail" name="stulogEmail">&nbsp;&nbsp;&nbsp; Buy &nbsp;&nbsp;&nbsp;&nbsp;</button>
                   </form>
 
